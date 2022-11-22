@@ -19,6 +19,7 @@ import java.util.List;
 @Validated
 public class AvatarController {
 
+
     private final AvatarService avatarService;
 
     public AvatarController(AvatarService avatarService) {

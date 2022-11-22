@@ -6,6 +6,7 @@ public class FacultyRecord {
 
     private Long id;
 
+
     @NotBlank(message = "Название факультета должно быть заполнено!")
     private String name;
     @NotBlank(message = "цвет факультета должно быть заполнено!")
