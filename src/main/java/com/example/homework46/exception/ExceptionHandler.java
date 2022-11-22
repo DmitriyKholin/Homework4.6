@@ -10,6 +10,7 @@ import javax.validation.ConstraintViolationException;
 @RestControllerAdvice
 public class ExceptionHandler {
 
+
     @org.springframework.web.bind.annotation.ExceptionHandler(StudentNotFoundException.class)
     public ResponseEntity<String> handleStudentMotFoundException(StudentNotFoundException e){
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(String.format("Студент с id = %d не найден!", e.getId()));

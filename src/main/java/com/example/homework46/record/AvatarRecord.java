@@ -3,6 +3,7 @@ package com.example.homesork46.record;
 public class AvatarRecord {
 
     private long id;
+
     private String mediaType;
     private String url;
 

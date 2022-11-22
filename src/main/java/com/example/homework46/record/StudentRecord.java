@@ -8,6 +8,7 @@ public class StudentRecord {
 
     private Long id;
 
+
     @NotBlank(message = "Имя студента должно быть заполнено!")
     private String name;
 

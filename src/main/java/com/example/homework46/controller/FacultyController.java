@@ -16,6 +16,7 @@ import java.util.Collection;
 @RequestMapping("/faculties")
 public class FacultyController {
 
+
     private final FacultyService facultyService;
 
     public FacultyController(FacultyService facultyService) {

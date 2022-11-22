@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class RecordMapper {
 
+
     public StudentRecord toRecord(Student student) {
         StudentRecord studentRecord = new StudentRecord();
         studentRecord.setId(student.getId());
